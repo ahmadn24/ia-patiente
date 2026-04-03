@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #111111;
+  --color-outline: #1a1a1a;
+  --color-muted: #888888;
+  --color-accent: #4A9FFF;
+  --color-fg: #e5e5e5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #0A0A0A;
+  color: #e5e5e5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #0A0A0A;
+  color: #e5e5e5;
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: rgba(74, 159, 255, 0.2);
+}
